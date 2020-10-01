@@ -90,7 +90,7 @@ while(true){
         }else{
             echo " > [".date("d-m-Y H:i:s")."] [ ".$usr['username']." ] ~ STATE : FAILED".PHP_EOL;
         }
-        sleep(5);
+        sleep(10);
     }
     echo PHP_EOL;
 }
