@@ -86,9 +86,9 @@ while(true){
         );
         $tembak = tembak_corry($ar);
         if($tembak){
-            echo " > [".date("d-m-Y H:i:s")."] [ ".$usr['username']." ] ~ STATE : SUCCESS".PHP_EOL;
+            echo " > [".date("d-m-Y H:i:s")."] [ ".$usr['username']." ] ~ STATE : SUKSES".PHP_EOL;
         }else{
-            echo " > [".date("d-m-Y H:i:s")."] [ ".$usr['username']." ] ~ STATE : FAILED".PHP_EOL;
+            echo " > [".date("d-m-Y H:i:s")."] [ ".$usr['username']." ] ~ STATE : GAGAL".PHP_EOL;
         }
         sleep(10);
     }
